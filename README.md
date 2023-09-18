@@ -3,6 +3,6 @@ This is the official pytorch implementation of "**NLOS-NeuS: Non-line-of-sight N
 
 <!--<h3 align="center"> -->
 
-### [Project Page](https://yfujimura.github.io/nlos-neus/) | [Paper](https://arxiv.org/pdf/2303.12280.pdf) | [Poster]()
+### [Project Page](https://yfujimura.github.io/nlos-neus/) | [Paper](https://arxiv.org/pdf/2303.12280.pdf) | [Poster](docs/static/pdfs/poster.pdf)
 
 TBA
