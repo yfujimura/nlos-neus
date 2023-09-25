@@ -1,0 +1,24 @@
+rng = 0
+nlos_file = ./data/fk_dragon_meas_180_min_256_preprocessed.mat
+dataset_type = fk
+gt_times = 0.1
+
+num_epochs = 5
+start = 120
+end = 240
+num_sampling_points = 64
+histogram_batchsize = 1
+
+geometric_init = 1
+init_lr = 1e-4
+weight_h = 1.
+weight_ei = 1e-1
+weight_z = 1e-2
+weight_f = 1e-2
+weight_en = 1e-3
+save_m = 4
+transient_threshold = 5.
+num_sampling_zero_pts = 32
+num_sampling_eik_pts = 4096
+num_sampling_lb_pts = 4096
+render_background = 1

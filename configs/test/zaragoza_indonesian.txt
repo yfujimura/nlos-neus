@@ -1,0 +1,31 @@
+rng = 0
+nlos_file = ./data/zaragozadataset/zaragoza_indonesian_256_1m_preprocessed.mat
+dataset_type = zaragoza256
+gt_times = 2000
+
+num_epochs = 5
+start = 250
+end = 450
+num_sampling_points = 64
+histogram_batchsize = 1
+
+geometric_init = 1
+init_lr = 1e-4
+weight_h = 1.
+weight_ei = 1e-1
+weight_z = 1e-2
+weight_f = 1e-2
+weight_en = 1e-3
+save_m = 4
+transient_threshold = 1e-5
+num_sampling_zero_pts = 32
+num_sampling_eik_pts = 4096
+num_sampling_lb_pts = 4096
+render_background = 1
+
+test_epoch = 5
+test_m = 0
+test_volume_size = 256
+num_iters = 100
+require_mask = 1
+remove_mesh_th = 0.1
